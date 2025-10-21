@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="site-footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <h3 className="footer-logo">Jas1er</h3>
+          <h3 className="footer-logo">Insanity</h3>
           <p className="footer-tagline">Creating exceptional graphics, one pixel at a time</p>
         </div>
 
@@ -15,10 +15,10 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="copyright">
-            © {new Date().getFullYear()} Jas1er. All rights reserved.
+            © {new Date().getFullYear()} Insanity. All rights reserved.
           </p>
           <p className="made-with">
-            Made with <Heart size={16} fill="#00d9ff" stroke="#00d9ff" /> by Jas1er
+            Made with <Heart size={16} fill="#00d9ff" stroke="#00d9ff" /> by Insanity
           </p>
         </div>
       </div>
