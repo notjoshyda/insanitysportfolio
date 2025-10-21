@@ -1,0 +1,147 @@
+.pricing-section {
+  padding: 4rem 0;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: linear-gradient(135deg, #111111 0%, #1a1a1a 100%);
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(0, 217, 255, 0.5);
+  box-shadow: 0 10px 40px rgba(0, 217, 255, 0.2);
+}
+
+.pricing-card.featured {
+  background: linear-gradient(135deg, #1a1a1a 0%, #111111 100%);
+  border-color: #00d9ff;
+  box-shadow: 0 10px 40px rgba(0, 217, 255, 0.2);
+}
+
+.featured-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00d9ff;
+  color: #0a0a0a;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(0, 217, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #00d9ff;
+}
+
+.card-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.card-description {
+  color: #b0b0b0;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.card-price {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 217, 255, 0.2);
+}
+
+.price-range {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00d9ff;
+  display: block;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.price-currency {
+  font-size: 1.2rem;
+  color: #e5e5e5;
+  font-weight: 500;
+}
+
+.card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.card-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #e5e5e5;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-features li svg {
+  color: #00d9ff;
+  flex-shrink: 0;
+}
+
+.additional-note {
+  font-size: 0.85rem;
+  color: #808080;
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .pricing-card {
+    padding: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .price-range {
+    font-size: 2.5rem;
+  }
+}
