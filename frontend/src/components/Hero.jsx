@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-badge fade-in">GFX CREATOR</div>
         <h1 className="hero-title slide-in-left">
-          Welcome to <span className="highlight">Jas1er</span>
+          Welcome to <span className="highlight">Insanity's</span>
         </h1>
         <p className="hero-subtitle slide-in-right">
           Professional <span className="accent">Thumbnails</span> & <span className="accent">Renders</span> for your brand
