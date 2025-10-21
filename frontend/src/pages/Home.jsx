@@ -22,7 +22,7 @@ const Home = () => {
       {/* Header */}
       <header className="site-header">
         <div className="header-content">
-          <h1 className="logo">Jas1er</h1>
+          <h1 className="logo">Insanity</h1>
           <nav className="nav-links">
             <a href="#gallery">Gallery</a>
             <a href="#pricing">Pricing</a>
